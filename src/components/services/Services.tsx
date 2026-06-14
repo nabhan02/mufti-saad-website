@@ -76,7 +76,7 @@ export function Services() {
             className="rounded-2xl p-8 md:p-10 text-center"
             style={{
               background:
-                "linear-gradient(135deg, oklch(38% 0.135 305), oklch(30% 0.12 305))",
+                "linear-gradient(135deg, oklch(30% 0.12 305), oklch(23% 0.105 305))",
               boxShadow: "0 8px 40px oklch(20% 0.07 305 / 0.18)",
             }}
           >

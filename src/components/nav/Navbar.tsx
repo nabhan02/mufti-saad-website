@@ -14,7 +14,7 @@ export function Navbar() {
     <header
       className="fixed top-0 left-0 right-0 z-50 backdrop-blur-md"
       style={{
-        background: "oklch(27% 0.115 305 / 0.92)",
+        background: "oklch(20% 0.1 305 / 0.92)",
         borderBottom: "1px solid oklch(96% 0.015 85 / 0.1)",
       }}
     >
@@ -95,7 +95,7 @@ export function Navbar() {
       {open && (
         <div
           className="lg:hidden px-6 pb-6"
-          style={{ background: "oklch(27% 0.115 305 / 0.98)" }}
+          style={{ background: "oklch(20% 0.1 305 / 0.98)" }}
         >
           <ul className="flex flex-col gap-4">
             {NAV_LINKS.map((link) => {
