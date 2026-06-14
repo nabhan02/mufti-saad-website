@@ -88,10 +88,10 @@ export function Counseling() {
               />
               <div className="p-8 flex-1 flex flex-col">
                 <div
-                  className="w-12 h-12 rounded-xl flex items-center justify-center mb-6"
+                  className="w-12 h-12 rounded-full flex items-center justify-center mb-6"
                   style={{
-                    background: "oklch(32% 0.075 262 / 0.08)",
-                    color: "var(--blue-accent)",
+                    background: "var(--navy)",
+                    color: "var(--gold-accent)",
                   }}
                 >
                   {service.icon}
@@ -106,13 +106,13 @@ export function Counseling() {
                 <span
                   className="inline-flex items-center gap-2 px-3 py-1 rounded-full text-[10px] font-semibold uppercase tracking-[0.2em] mb-4 self-start"
                   style={{
-                    background: "oklch(32% 0.075 262 / 0.08)",
-                    color: "var(--blue-accent)",
+                    background: "var(--gold-accent)",
+                    color: "var(--navy-deep)",
                   }}
                 >
                   <span
                     className="w-1.5 h-1.5 rounded-full"
-                    style={{ background: "var(--blue-accent)" }}
+                    style={{ background: "var(--navy-deep)" }}
                   />
                   By Appointment
                 </span>

@@ -119,10 +119,10 @@ export function ServicesOverview() {
               }}
             >
               <div
-                className="w-14 h-14 rounded-xl flex items-center justify-center mb-6 transition-colors duration-300"
+                className="w-14 h-14 rounded-full flex items-center justify-center mb-6"
                 style={{
-                  background: "oklch(32% 0.075 262 / 0.08)",
-                  color: "var(--blue-accent)",
+                  background: "var(--navy)",
+                  color: "var(--gold-accent)",
                 }}
               >
                 {item.icon}

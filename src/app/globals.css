@@ -1,29 +1,30 @@
 @import "tailwindcss";
 
 :root {
-  /* Dark blue (navy) family */
-  --navy-deep: oklch(25% 0.055 262);
-  --navy: oklch(32% 0.075 262);
-  --navy-mid: oklch(38% 0.085 260);
-  --navy-soft: oklch(44% 0.095 258);
+  /* Dark blue (navy) family — matched to the flyer */
+  --navy-deep: oklch(22% 0.07 264);
+  --navy: oklch(27% 0.085 264);
+  --navy-mid: oklch(33% 0.085 263);
+  --navy-soft: oklch(40% 0.09 261);
 
-  /* Accent used on light backgrounds (links, eyebrows, icons) */
-  --blue-accent: oklch(46% 0.1 258);
+  /* Deep navy used for small accent text, links, and labels on light backgrounds */
+  --blue-accent: oklch(33% 0.085 264);
 
-  /* Cream / surfaces */
-  --cream: oklch(96.5% 0.016 85);
-  --surface-light: oklch(97.8% 0.01 85);
-  --surface-card: oklch(99.3% 0.004 85);
-  --border-subtle: oklch(89% 0.013 85);
+  /* Cream / surfaces — warm ivory */
+  --cream: oklch(95.5% 0.02 86);
+  --surface-light: oklch(97.2% 0.013 86);
+  --surface-card: oklch(99% 0.006 86);
+  --border-subtle: oklch(88% 0.017 85);
 
-  /* Warm champagne accent (used sparingly on dark backgrounds) */
-  --gold-accent: oklch(80% 0.085 82);
+  /* Brass gold accent — matched to the flyer */
+  --gold-accent: oklch(70% 0.115 80);
+  --gold-deep: oklch(58% 0.105 74);
 
   /* Text */
-  --text-primary: oklch(23% 0.03 262);
-  --text-secondary: oklch(45% 0.025 262);
-  --text-on-dark: oklch(96% 0.015 85);
-  --text-muted-on-dark: oklch(83% 0.028 250);
+  --text-primary: oklch(24% 0.05 264);
+  --text-secondary: oklch(44% 0.03 264);
+  --text-on-dark: oklch(96% 0.016 86);
+  --text-muted-on-dark: oklch(83% 0.03 250);
 
   --duration-normal: 350ms;
   --ease-out-expo: cubic-bezier(0.16, 1, 0.3, 1);
@@ -47,7 +48,7 @@ html {
 }
 
 ::selection {
-  background: oklch(44% 0.095 258 / 0.25);
+  background: oklch(40% 0.09 261 / 0.22);
   color: var(--text-primary);
 }
 
@@ -56,5 +57,5 @@ input:focus,
 select:focus,
 textarea:focus {
   border-color: var(--blue-accent) !important;
-  box-shadow: 0 0 0 3px oklch(46% 0.1 258 / 0.12);
+  box-shadow: 0 0 0 3px oklch(33% 0.085 264 / 0.12);
 }
