@@ -7,7 +7,7 @@ export function Hero() {
       className="relative min-h-screen flex items-center overflow-hidden"
       style={{
         background:
-          "linear-gradient(160deg, oklch(38% 0.085 260) 0%, oklch(34% 0.08 261) 35%, oklch(29% 0.066 262) 70%, oklch(25% 0.055 262) 100%)",
+          "linear-gradient(160deg, oklch(38% 0.135 305) 0%, oklch(34% 0.13 305) 35%, oklch(29% 0.115 305) 70%, oklch(25% 0.10 305) 100%)",
       }}
     >
       <div className="relative mx-auto max-w-6xl px-6 py-32 md:py-40">
@@ -55,7 +55,7 @@ export function Hero() {
             <div
               className="relative w-64 h-64 sm:w-72 sm:h-72 lg:w-80 lg:h-80 rounded-2xl overflow-hidden"
               style={{
-                boxShadow: "0 25px 80px oklch(18% 0.04 262 / 0.55)",
+                boxShadow: "0 25px 80px oklch(18% 0.06 305 / 0.55)",
                 border: "3px solid oklch(96% 0.015 85 / 0.15)",
               }}
             >

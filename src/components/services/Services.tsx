@@ -76,8 +76,8 @@ export function Services() {
             className="rounded-2xl p-8 md:p-10 text-center"
             style={{
               background:
-                "linear-gradient(135deg, oklch(38% 0.085 260), oklch(30% 0.07 262))",
-              boxShadow: "0 8px 40px oklch(20% 0.05 262 / 0.18)",
+                "linear-gradient(135deg, oklch(38% 0.135 305), oklch(30% 0.12 305))",
+              boxShadow: "0 8px 40px oklch(20% 0.07 305 / 0.18)",
             }}
           >
             <p
@@ -112,7 +112,7 @@ export function Services() {
                 style={{
                   background: "var(--surface-card)",
                   border: "1px solid var(--border-subtle)",
-                  boxShadow: "0 4px 24px oklch(25% 0.055 262 / 0.06)",
+                  boxShadow: "0 4px 24px oklch(25% 0.07 305 / 0.06)",
                 }}
               >
                 <div

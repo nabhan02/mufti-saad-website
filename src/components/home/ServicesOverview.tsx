@@ -115,7 +115,7 @@ export function ServicesOverview() {
               style={{
                 background: "var(--surface-card)",
                 border: "1px solid var(--border-subtle)",
-                boxShadow: "0 4px 24px oklch(25% 0.055 262 / 0.06)",
+                boxShadow: "0 4px 24px oklch(25% 0.07 305 / 0.06)",
               }}
             >
               <div
