@@ -2,15 +2,15 @@ import { Button } from "@/components/ui/Button";
 
 const SERVICES = [
   {
-    title: "Islamic Home Financing",
-    tag: "University Islamic Financial (UIF)",
+    title: "Shariah-Compliant Home Financing",
+    tag: "Riba-free homeownership",
     description:
-      "As a professional consultant with University Islamic Financial, Mufti Saad helps individuals and families navigate Shariah-compliant home financing — connecting faith-based financial ethics with practical needs.",
+      "Achieve homeownership through Islamically structured, riba-free financing. Mufti Saad helps families navigate the process with clarity and confidence.",
     features: [
-      "Shariah-compliant home financing",
-      "Guidance for families & first-time buyers",
-      "Faith-centered financial ethics",
-      "Practical, personalized support",
+      "Riba-free financing structures",
+      "Guidance for first-time buyers",
+      "A faith-aligned path to ownership",
+      "Clear, step-by-step support",
     ],
     icon: (
       <svg className="w-7 h-7" fill="none" viewBox="0 0 24 24" stroke="currentColor" strokeWidth={1.5}>
@@ -23,53 +23,53 @@ const SERVICES = [
     ),
   },
   {
-    title: "Humanitarian Relief",
-    tag: "In Partnership with Human Appeal",
+    title: "Islamic Financial Solutions",
+    tag: "Halal alternatives",
     description:
-      "Mufti Saad partners with Human Appeal, a leading international charity, to support global humanitarian projects — raising funds and awareness for critical causes around the world.",
+      "Beyond home financing, explore Shariah-compliant options for your broader financial needs — grounded in authentic Islamic principles and free of interest.",
     features: [
-      "Food security & emergency relief",
-      "Orphan care & sponsorship",
-      "Education initiatives",
-      "Fundraising & awareness",
+      "Halal financing alternatives",
+      "Avoiding riba in transactions",
+      "Compliant everyday solutions",
+      "Backed by University Islamic Financial",
     ],
     icon: (
       <svg className="w-7 h-7" fill="none" viewBox="0 0 24 24" stroke="currentColor" strokeWidth={1.5}>
         <path
           strokeLinecap="round"
           strokeLinejoin="round"
-          d="M21 8.25c0-2.485-2.099-4.5-4.688-4.5-1.935 0-3.597 1.126-4.312 2.733-.715-1.607-2.377-2.733-4.313-2.733C5.1 3.75 3 5.765 3 8.25c0 7.22 9 12 9 12s9-4.78 9-12Z"
+          d="M2.25 18.75a60.07 60.07 0 0 1 15.797 2.101c.727.198 1.453-.342 1.453-1.096V18.75M3.75 4.5v.75A.75.75 0 0 1 3 6h-.75m0 0v-.375c0-.621.504-1.125 1.125-1.125H20.25M2.25 6v9m18-10.5v.75c0 .414.336.75.75.75h.75m-1.5-1.5h.375c.621 0 1.125.504 1.125 1.125v9.75c0 .621-.504 1.125-1.125 1.125h-.375m1.5-1.5H21a.75.75 0 0 0-.75.75v.75m0 0H3.75m0 0h-.375a1.125 1.125 0 0 1-1.125-1.125V15m1.5 1.5v-.75A.75.75 0 0 0 3 15h-.75M15 10.5a3 3 0 1 1-6 0 3 3 0 0 1 6 0Zm3 0h.008v.008H18V10.5Zm-12 0h.008v.008H6V10.5Z"
         />
       </svg>
     ),
   },
   {
-    title: "DMV Ulama Council",
-    tag: "Founding Member",
+    title: "Financial Consultation",
+    tag: "One-on-one guidance",
     description:
-      "A founding member of the DMV Ulama Council — a collective of scholars from the D.C., Maryland, and Virginia region — Mufti Saad contributes to unified scholarly guidance and inter-masjid cooperation.",
+      "Personalized guidance that connects faith-based financial ethics with real-world decisions, helping individuals and families plan with confidence.",
     features: [
-      "Unified scholarly guidance",
-      "Inter-masjid cooperation",
-      "Addressing community concerns",
-      "Regional religious leadership",
+      "Personalized consultation",
+      "Islamic finance education",
+      "An ethics-first approach",
+      "Practical, contextual advice",
     ],
     icon: (
       <svg className="w-7 h-7" fill="none" viewBox="0 0 24 24" stroke="currentColor" strokeWidth={1.5}>
         <path
           strokeLinecap="round"
           strokeLinejoin="round"
-          d="M12 21v-8.25M15.75 21v-8.25M8.25 21v-8.25M3 9l9-6 9 6m-1.5 12V10.332A48.36 48.36 0 0 0 12 9.75c-2.551 0-5.056.2-7.5.582V21M3 21h18M12 6.75h.008v.008H12V6.75Z"
+          d="M8.625 12a.375.375 0 1 1-.75 0 .375.375 0 0 1 .75 0Zm0 0H8.25m4.125 0a.375.375 0 1 1-.75 0 .375.375 0 0 1 .75 0Zm0 0H12m4.125 0a.375.375 0 1 1-.75 0 .375.375 0 0 1 .75 0Zm0 0h-.375M21 12c0 4.556-4.03 8.25-9 8.25a9.764 9.764 0 0 1-2.555-.337A5.972 5.972 0 0 1 5.41 20.97a5.969 5.969 0 0 1-.474-.065 4.48 4.48 0 0 0 .978-2.025c.09-.457-.133-.901-.467-1.226C3.93 16.178 3 14.189 3 12c0-4.556 4.03-8.25 9-8.25s9 3.694 9 8.25Z"
         />
       </svg>
     ),
   },
 ];
 
-export function Services() {
+export function IslamicFinance() {
   return (
     <>
-      {/* Intro banner */}
+      {/* Partnership banner */}
       <section className="py-16 md:py-20">
         <div className="mx-auto max-w-4xl px-6">
           <div
@@ -84,15 +84,16 @@ export function Services() {
               className="text-xs font-semibold uppercase tracking-[0.25em] mb-3"
               style={{ color: "var(--gold-accent)" }}
             >
-              Beyond the Masjid
+              Consultant with University Islamic Financial (UIF)
             </p>
             <p
               className="text-lg md:text-xl leading-relaxed"
               style={{ color: "var(--text-on-dark)" }}
             >
-              Mufti Saad serves the wider Muslim community through financial
-              guidance, humanitarian partnership, and scholarly collaboration —
-              translating faith into practical benefit for families and society.
+              Mufti Saad helps individuals and families navigate home financing
+              and other Islamic financial solutions — connecting faith-based
+              financial ethics with the practical needs of a growing
+              Muslim-American community.
             </p>
           </div>
         </div>
@@ -172,7 +173,7 @@ export function Services() {
                   </ul>
 
                   <Button href="/contact" variant="link">
-                    Get in Touch
+                    Request a Consultation
                   </Button>
                 </div>
               </div>

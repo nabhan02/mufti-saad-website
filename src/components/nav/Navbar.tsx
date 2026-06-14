@@ -41,7 +41,7 @@ export function Navbar() {
         </Link>
 
         {/* Desktop */}
-        <ul className="hidden lg:flex items-center gap-7">
+        <ul className="hidden lg:flex items-center gap-5">
           {NAV_LINKS.map((link) => {
             const active = pathname === link.href;
             return (

@@ -13,10 +13,11 @@ export const ORG_NAME = "Zakaria Islamic Academy";
 
 export const NAV_LINKS = [
   { href: "/about", label: "About" },
-  { href: "/ask", label: "Ask Mufti Saad" },
+  { href: "/ask", label: "Ask Mufti" },
   { href: "/classes", label: "Classes" },
   { href: "/counseling", label: "Counseling" },
   { href: "/hajj-umrah", label: "Hajj & Umrah" },
-  { href: "/services", label: "Services" },
+  { href: "/islamic-finance", label: "Islamic Finance" },
+  { href: "/fundraising", label: "Fundraising" },
   { href: "/contact", label: "Contact" },
 ] as const;

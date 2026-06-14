@@ -7,7 +7,8 @@ const TOPICS = [
   "Counseling",
   "Nikah Officiation",
   "Hajj & Umrah",
-  "Islamic Home Financing",
+  "Islamic Finance",
+  "Fundraising",
   "Speaking / Khutbah",
   "Other",
 ];

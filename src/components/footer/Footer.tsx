@@ -13,7 +13,8 @@ const QUICK_LINKS = [
   { href: "/classes", label: "Classes & Education" },
   { href: "/counseling", label: "Counseling & Nikah" },
   { href: "/hajj-umrah", label: "Hajj & Umrah" },
-  { href: "/services", label: "Community & Services" },
+  { href: "/islamic-finance", label: "Islamic Finance" },
+  { href: "/fundraising", label: "Fundraising" },
 ];
 
 export function Footer() {
