@@ -1,0 +1,60 @@
+@import "tailwindcss";
+
+:root {
+  /* Dark blue (navy) family */
+  --navy-deep: oklch(25% 0.055 262);
+  --navy: oklch(32% 0.075 262);
+  --navy-mid: oklch(38% 0.085 260);
+  --navy-soft: oklch(44% 0.095 258);
+
+  /* Accent used on light backgrounds (links, eyebrows, icons) */
+  --blue-accent: oklch(46% 0.1 258);
+
+  /* Cream / surfaces */
+  --cream: oklch(96.5% 0.016 85);
+  --surface-light: oklch(97.8% 0.01 85);
+  --surface-card: oklch(99.3% 0.004 85);
+  --border-subtle: oklch(89% 0.013 85);
+
+  /* Warm champagne accent (used sparingly on dark backgrounds) */
+  --gold-accent: oklch(80% 0.085 82);
+
+  /* Text */
+  --text-primary: oklch(23% 0.03 262);
+  --text-secondary: oklch(45% 0.025 262);
+  --text-on-dark: oklch(96% 0.015 85);
+  --text-muted-on-dark: oklch(83% 0.028 250);
+
+  --duration-normal: 350ms;
+  --ease-out-expo: cubic-bezier(0.16, 1, 0.3, 1);
+}
+
+@theme inline {
+  --color-background: var(--cream);
+  --color-foreground: var(--text-primary);
+  --font-sans: var(--font-inter);
+  --font-serif: var(--font-playfair);
+}
+
+body {
+  background: var(--cream);
+  color: var(--text-primary);
+  font-family: var(--font-inter), system-ui, sans-serif;
+}
+
+html {
+  scroll-behavior: smooth;
+}
+
+::selection {
+  background: oklch(44% 0.095 258 / 0.25);
+  color: var(--text-primary);
+}
+
+/* Form controls pick up the brand focus ring */
+input:focus,
+select:focus,
+textarea:focus {
+  border-color: var(--blue-accent) !important;
+  box-shadow: 0 0 0 3px oklch(46% 0.1 258 / 0.12);
+}
