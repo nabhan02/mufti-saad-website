@@ -1,3 +1,4 @@
+import Image from "next/image";
 import { Button } from "@/components/ui/Button";
 
 export function Hero() {
@@ -57,40 +58,23 @@ export function Hero() {
             </div>
           </div>
 
-          {/* Monogram medallion.
-              Replace with a real portrait (e.g. <Image src="/images/headshot.jpg" .../>)
-              once a photograph is available. */}
+          {/* Portrait */}
           <div className="md:col-span-2 order-1 md:order-2 flex justify-center">
             <div
-              className="relative w-64 h-64 sm:w-72 sm:h-72 lg:w-80 lg:h-80 rounded-2xl overflow-hidden flex items-center justify-center"
+              className="relative w-64 h-64 sm:w-72 sm:h-72 lg:w-80 lg:h-80 rounded-2xl overflow-hidden"
               style={{
-                background:
-                  "radial-gradient(circle at 30% 25%, oklch(40% 0.09 260), oklch(27% 0.06 262) 75%)",
                 boxShadow: "0 25px 80px oklch(18% 0.04 262 / 0.55)",
                 border: "3px solid oklch(96% 0.015 85 / 0.15)",
               }}
             >
-              <div
-                className="absolute inset-5 rounded-xl"
-                style={{ border: "1px solid oklch(80% 0.085 82 / 0.4)" }}
+              <Image
+                src="/images/headshot.png"
+                alt="Mufti Saad Haque"
+                fill
+                className="object-cover object-center"
+                priority
+                sizes="(max-width: 768px) 256px, 320px"
               />
-              <div className="relative text-center px-6">
-                <span
-                  className="block text-7xl lg:text-8xl font-bold leading-none mb-3"
-                  style={{
-                    fontFamily: "var(--font-playfair), serif",
-                    color: "var(--gold-accent)",
-                  }}
-                >
-                  MS
-                </span>
-                <span
-                  className="block text-xs uppercase tracking-[0.3em]"
-                  style={{ color: "var(--text-muted-on-dark)" }}
-                >
-                  Mufti Saad Haque
-                </span>
-              </div>
             </div>
           </div>
         </div>

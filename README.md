@@ -19,9 +19,8 @@ A few placeholders should be updated with real details:
 - **Contact email** — set in `src/lib/site.ts` (`CONTACT_EMAIL`). The inquiry
   forms ("Ask Mufti Saad" and "Contact") open the visitor's email client
   addressed to this address.
-- **Photograph** — the hero currently shows a monogram medallion. Drop a real
-  portrait into `public/images/` and wire it into `src/components/hero/Hero.tsx`
-  if/when one is available.
+- **Photograph** — the hero uses `public/images/headshot.png`. Swap that file
+  (referenced in `src/components/hero/Hero.tsx`) to update the portrait.
 - **Social links** — placeholder `#` links in
   `src/components/footer/SocialIcons.tsx`.
 - **Location / org details** — `src/lib/site.ts`.
