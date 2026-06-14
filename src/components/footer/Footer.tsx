@@ -23,7 +23,7 @@ export function Footer() {
       className="mt-auto"
       style={{
         background:
-          "linear-gradient(180deg, oklch(25% 0.11 305), oklch(25% 0.10 305))",
+          "linear-gradient(180deg, oklch(25% 0.072 320), oklch(25% 0.065 320))",
         color: "var(--text-on-dark)",
       }}
     >

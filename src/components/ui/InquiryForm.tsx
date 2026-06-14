@@ -80,12 +80,12 @@ export function InquiryForm({
         style={{
           background: "var(--surface-card)",
           border: "1px solid var(--border-subtle)",
-          boxShadow: "0 8px 40px oklch(25% 0.07 305 / 0.08)",
+          boxShadow: "0 8px 40px oklch(25% 0.046 320 / 0.08)",
         }}
       >
         <div
           className="w-14 h-14 rounded-full flex items-center justify-center mx-auto mb-5"
-          style={{ background: "oklch(46% 0.13 305 / 0.1)", color: "var(--blue-accent)" }}
+          style={{ background: "oklch(46% 0.085 320 / 0.1)", color: "var(--blue-accent)" }}
         >
           <svg
             className="w-7 h-7"
@@ -143,7 +143,7 @@ export function InquiryForm({
       style={{
         background: "var(--surface-card)",
         border: "1px solid var(--border-subtle)",
-        boxShadow: "0 8px 40px oklch(25% 0.07 305 / 0.08)",
+        boxShadow: "0 8px 40px oklch(25% 0.046 320 / 0.08)",
       }}
     >
       <div className="grid gap-6 sm:grid-cols-2 mb-6">
