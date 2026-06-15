@@ -7,7 +7,7 @@ export function Hero() {
       className="relative min-h-screen flex items-center overflow-hidden"
       style={{
         background:
-          "linear-gradient(160deg, oklch(30% 0.078 320) 0%, oklch(27% 0.075 320) 35%, oklch(22% 0.065 320) 70%, oklch(25% 0.065 320) 100%)",
+          "radial-gradient(120% 110% at 78% 12%, oklch(38% 0.092 334 / 0.38) 0%, transparent 55%), linear-gradient(150deg, oklch(34% 0.088 332) 0%, oklch(26% 0.078 320) 50%, oklch(15% 0.055 304) 100%)",
       }}
     >
       <div className="relative mx-auto max-w-6xl px-6 py-32 md:py-40">

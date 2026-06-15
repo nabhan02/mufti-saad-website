@@ -12,7 +12,7 @@ export function PageHeader({
       className="pt-32 pb-16 md:pt-40 md:pb-20 relative overflow-hidden"
       style={{
         background:
-          "linear-gradient(160deg, oklch(30% 0.078 320) 0%, oklch(25% 0.072 320) 55%, oklch(25% 0.065 320) 100%)",
+          "radial-gradient(120% 130% at 80% 0%, oklch(36% 0.088 334 / 0.35) 0%, transparent 60%), linear-gradient(150deg, oklch(32% 0.085 330) 0%, oklch(26% 0.078 320) 55%, oklch(18% 0.06 306) 100%)",
       }}
     >
       <div className="relative mx-auto max-w-6xl px-6 text-center">

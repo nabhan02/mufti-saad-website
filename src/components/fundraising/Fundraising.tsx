@@ -67,7 +67,7 @@ export function Fundraising() {
             className="rounded-2xl p-8 md:p-10 text-center"
             style={{
               background:
-                "linear-gradient(135deg, oklch(30% 0.078 320), oklch(23% 0.068 320))",
+                "linear-gradient(135deg, oklch(31% 0.086 332) 0%, oklch(21% 0.068 308) 100%)",
               boxShadow: "0 8px 40px oklch(20% 0.046 320 / 0.18)",
             }}
           >

@@ -5,19 +5,19 @@ const JOURNEYS = [
     title: "Hajj",
     description:
       "Fulfill the fifth pillar of Islam with scholarly guidance at every step. From preparation classes to on-ground spiritual mentorship, experience Hajj with depth, devotion, and careful coordination.",
-    gradient: "linear-gradient(135deg, oklch(30% 0.078 320), oklch(25% 0.072 320))",
+    gradient: "linear-gradient(135deg, oklch(33% 0.088 335) 0%, oklch(23% 0.07 312) 100%)",
   },
   {
     title: "Umrah",
     description:
       "Journey to the sacred precincts for a blessed Umrah. Mufti Saad leads groups with logistical coordination and spiritual mentorship, making the lesser pilgrimage a meaningful, transformative experience.",
-    gradient: "linear-gradient(135deg, oklch(27% 0.075 320), oklch(21% 0.065 320))",
+    gradient: "linear-gradient(135deg, oklch(29% 0.082 327) 0%, oklch(19% 0.062 304) 100%)",
   },
   {
     title: "Spiritual Mentorship",
     description:
       "Every journey includes preparation and guidance — understanding the rites, their meanings, and their wisdom — so pilgrims travel with knowledge and return with a renewed connection to Allah.",
-    gradient: "linear-gradient(135deg, oklch(32% 0.081 320), oklch(26% 0.072 320))",
+    gradient: "linear-gradient(135deg, oklch(34% 0.088 330) 0%, oklch(24% 0.07 310) 100%)",
   },
 ];
 

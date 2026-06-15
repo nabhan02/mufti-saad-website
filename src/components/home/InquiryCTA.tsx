@@ -21,7 +21,7 @@ export function InquiryCTA({
           className="rounded-3xl p-10 md:p-16 text-center relative overflow-hidden"
           style={{
             background:
-              "linear-gradient(135deg, oklch(30% 0.078 320), oklch(25% 0.072 320) 55%, oklch(25% 0.065 320))",
+              "linear-gradient(135deg, oklch(32% 0.086 332) 0%, oklch(25% 0.076 320) 55%, oklch(17% 0.06 306) 100%)",
             boxShadow: "0 20px 60px oklch(20% 0.046 320 / 0.25)",
           }}
         >
