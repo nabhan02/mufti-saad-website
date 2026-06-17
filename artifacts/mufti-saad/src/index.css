@@ -1,0 +1,72 @@
+@import "tailwindcss";
+@import "tw-animate-css";
+@plugin "@tailwindcss/typography";
+
+@custom-variant dark (&:is(.dark *));
+
+/*
+ * Brand palette inspired by darulqasim.org: muted PLUM/eggplant purple +
+ * antique GOLD on warm cream.
+ */
+:root {
+  /* Muted plum brand family */
+  --navy-deep: oklch(16% 0.049 320);
+  --navy: oklch(21% 0.068 320);
+  --navy-mid: oklch(27% 0.078 320);
+  --navy-soft: oklch(34% 0.088 320);
+
+  /* Purple accent for small text, links, and labels on light backgrounds */
+  --blue-accent: oklch(34% 0.094 320);
+
+  /* Cream / surfaces — warm ivory */
+  --cream: oklch(95.5% 0.02 86);
+  --surface-light: oklch(97.2% 0.013 86);
+  --surface-card: oklch(99% 0.006 86);
+  --border-subtle: oklch(88% 0.017 85);
+
+  /* Antique gold accent */
+  --gold-accent: oklch(70% 0.1 80);
+  --gold-deep: oklch(55% 0.092 78);
+
+  /* Text */
+  --text-primary: oklch(24% 0.039 320);
+  --text-secondary: oklch(44% 0.026 320);
+  --text-on-dark: oklch(96% 0.016 86);
+  --text-muted-on-dark: oklch(84% 0.023 320);
+
+  --duration-normal: 350ms;
+  --ease-out-expo: cubic-bezier(0.16, 1, 0.3, 1);
+
+  /* Fonts set by HTML */
+  --font-playfair: 'Playfair Display', Georgia, serif;
+  --font-inter: 'Inter', system-ui, sans-serif;
+}
+
+@theme inline {
+  --color-background: var(--cream);
+  --color-foreground: var(--text-primary);
+  --font-sans: var(--font-inter);
+  --font-serif: var(--font-playfair);
+}
+
+body {
+  background: var(--cream);
+  color: var(--text-primary);
+  font-family: var(--font-inter), system-ui, sans-serif;
+}
+
+html {
+  scroll-behavior: smooth;
+}
+
+::selection {
+  background: oklch(34% 0.088 320 / 0.25);
+  color: var(--text-primary);
+}
+
+input:focus,
+select:focus,
+textarea:focus {
+  border-color: var(--blue-accent) !important;
+  box-shadow: 0 0 0 3px oklch(34% 0.094 320 / 0.14);
+}

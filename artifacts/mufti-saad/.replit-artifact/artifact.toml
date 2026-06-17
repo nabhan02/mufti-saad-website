@@ -1,0 +1,31 @@
+kind = "web"
+previewPath = "/"
+title = "Mufti Saad Haque"
+version = "1.0.0"
+id = "artifacts/mufti-saad"
+router = "path"
+
+[[integratedSkills]]
+name = "react-vite"
+version = "1.0.0"
+
+[[services]]
+name = "web"
+paths = [ "/" ]
+localPort = 26244
+
+[services.development]
+run = "pnpm --filter @workspace/mufti-saad run dev"
+
+[services.production]
+build = [ "pnpm", "--filter", "@workspace/mufti-saad", "run", "build" ]
+publicDir = "artifacts/mufti-saad/dist/public"
+serve = "static"
+
+[[services.production.rewrites]]
+from = "/*"
+to = "/index.html"
+
+[services.env]
+PORT = "26244"
+BASE_PATH = "/"

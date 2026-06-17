@@ -1,36 +1,42 @@
-# [Project name]
+# Mufti Saad Haque Website
 
-_Replace the heading above with the project's name, and this line with one sentence describing what this app does for users._
+A professional website for Mufti Saad Haque — Scholar, Imam, and Mufti at Zakaria Islamic Academy in Northern Virginia.
 
 ## Run & Operate
 
-- `pnpm --filter @workspace/api-server run dev` — run the API server (port 5000)
+- `pnpm --filter @workspace/mufti-saad run dev` — run the frontend (served at `/`)
 - `pnpm run typecheck` — full typecheck across all packages
-- `pnpm run build` — typecheck + build all packages
-- `pnpm --filter @workspace/api-spec run codegen` — regenerate API hooks and Zod schemas from the OpenAPI spec
-- `pnpm --filter @workspace/db run push` — push DB schema changes (dev only)
-- Required env: `DATABASE_URL` — Postgres connection string
+- Required env: none (purely frontend, no backend or database)
 
 ## Stack
 
 - pnpm workspaces, Node.js 24, TypeScript 5.9
-- API: Express 5
-- DB: PostgreSQL + Drizzle ORM
-- Validation: Zod (`zod/v4`), `drizzle-zod`
-- API codegen: Orval (from OpenAPI spec)
-- Build: esbuild (CJS bundle)
+- Frontend: React + Vite, Tailwind CSS v4, wouter (routing)
+- Fonts: Playfair Display (headings) + Inter (body) via Google Fonts
 
 ## Where things live
 
-_Populate as you build — short repo map plus pointers to the source-of-truth file for DB schema, API contracts, theme files, etc._
+- `artifacts/mufti-saad/src/App.tsx` — routing + page composition
+- `artifacts/mufti-saad/src/index.css` — brand CSS variables (plum/gold palette)
+- `artifacts/mufti-saad/src/lib/site.ts` — site-wide constants (email, nav links)
+- `artifacts/mufti-saad/src/components/` — all UI components by section
+- `artifacts/mufti-saad/public/images/` — headshot.png, logo-mark.svg
 
 ## Architecture decisions
 
-_Populate as you build — non-obvious choices a reader couldn't infer from the code (3-5 bullets)._
+- Pure frontend — no API server or database needed; contact/inquiry forms use mailto links
+- wouter used for routing (already in scaffold); all routes in `App.tsx`
+- Brand colors use OKLCH color space (plum family + antique gold on warm cream)
+- `next/link` and `next/image` replaced with wouter `Link` and standard `<img>` tags
+- `VITE_CONTACT_EMAIL` env var overrides the default contact email
 
 ## Product
 
-_Describe the high-level user-facing capabilities of this app once they exist._
+- Home page with hero (portrait + tagline), services overview, about teaser, CTA
+- About page with full biography and credentials sidebar
+- Ask Mufti page — inquiry form that opens visitor's email client
+- Classes & Education, Counseling & Nikah, Hajj & Umrah, Islamic Finance, Fundraising pages
+- Contact page with general inquiry form
 
 ## User preferences
 
@@ -38,7 +44,8 @@ _Populate as you build — explicit user instructions worth remembering across s
 
 ## Gotchas
 
-_Populate as you build — sharp edges, "always run X before Y" rules._
+- `next` dependency is installed as a side effect of the copy script but is unused — it can be removed
+- Do NOT put frontend code into `artifacts/api-server/`
 
 ## Pointers
 
