@@ -2,10 +2,14 @@ import { Button } from "@/components/ui/Button";
 
 const CLASSES = [
   {
-    title: "Tafsir of the Qur'an",
-    subtitle: "Understanding the Book of Allah",
+    title: "Public Classes at Zakaria Islamic Academy",
+    subtitle: "Open to the community — check ZIA's website",
     description:
-      "In-depth study of the meanings, context, and lessons of the Qur'an, making the timeless guidance of revelation accessible and applicable to daily life.",
+      "Mufti Saad teaches regular public classes at Zakaria Islamic Academy covering Tafsir, Fiqh, Hadith, and other Islamic sciences. Class schedules, topics, and registration can be found on ZIA's website.",
+    cta: "Visit ziacademy.org",
+    ctaHref: "https://ziacademy.org",
+    external: true,
+    badge: "Community Classes",
     icon: (
       <svg className="w-7 h-7" fill="none" viewBox="0 0 24 24" stroke="currentColor" strokeWidth={1.5}>
         <path
@@ -17,40 +21,33 @@ const CLASSES = [
     ),
   },
   {
-    title: "Fiqh & Islamic Law",
-    subtitle: "Practical rulings for everyday life",
+    title: "Private One-on-One Classes",
+    subtitle: "Personalized instruction — contact directly",
     description:
-      "Advanced study of Islamic jurisprudence — worship, transactions, family, and contemporary issues — taught with the depth of classical scholarship and Iftaa training.",
+      "For students seeking individualized instruction in Qur'an recitation, Tajweed, Islamic studies, or specific texts, private sessions can be arranged directly with Mufti Saad.",
+    cta: "Inquire About Private Classes",
+    ctaHref: "/contact",
+    external: false,
+    badge: "By Arrangement",
     icon: (
       <svg className="w-7 h-7" fill="none" viewBox="0 0 24 24" stroke="currentColor" strokeWidth={1.5}>
         <path
           strokeLinecap="round"
           strokeLinejoin="round"
-          d="M12 3v17.25m0 0c-1.472 0-2.882.265-4.185.75M12 20.25c1.472 0 2.882.265 4.185.75M18.75 4.97A48.416 48.416 0 0 0 12 4.5c-2.291 0-4.545.16-6.75.47m13.5 0c1.01.143 2.01.317 3 .52m-3-.52 2.62 10.726c.122.499-.106 1.028-.589 1.202a5.988 5.988 0 0 1-2.031.352 5.988 5.988 0 0 1-2.031-.352c-.483-.174-.711-.703-.59-1.202L18.75 4.971Zm-16.5.52c.99-.203 1.99-.377 3-.52m0 0 2.62 10.726c.122.499-.106 1.028-.589 1.202a5.989 5.989 0 0 1-2.031.352 5.989 5.989 0 0 1-2.032-.352c-.483-.174-.711-.703-.589-1.202L5.25 4.971Z"
+          d="M15.75 6a3.75 3.75 0 1 1-7.5 0 3.75 3.75 0 0 1 7.5 0ZM4.501 20.118a7.5 7.5 0 0 1 14.998 0A17.933 17.933 0 0 1 12 21.75c-2.676 0-5.216-.584-7.499-1.632Z"
         />
       </svg>
     ),
   },
   {
-    title: "Weekly Lectures & Halaqāt",
-    subtitle: "Spiritual reminders & gatherings",
+    title: "Advanced Alimiyyah Classes",
+    subtitle: "Classical texts for serious students — contact directly",
     description:
-      "Regular lectures and study circles that nurture faith, character, and prophetic example — building a connected, knowledgeable community throughout the year.",
-    icon: (
-      <svg className="w-7 h-7" fill="none" viewBox="0 0 24 24" stroke="currentColor" strokeWidth={1.5}>
-        <path
-          strokeLinecap="round"
-          strokeLinejoin="round"
-          d="M18 18.72a9.094 9.094 0 0 0 3.741-.479 3 3 0 0 0-4.682-2.72m.94 3.198.001.031c0 .225-.012.447-.037.666A11.944 11.944 0 0 1 12 21c-2.17 0-4.207-.576-5.963-1.584A6.062 6.062 0 0 1 6 18.719m12 0a5.971 5.971 0 0 0-.941-3.197m0 0A5.995 5.995 0 0 0 12 12.75a5.995 5.995 0 0 0-5.058 2.772m0 0a3 3 0 0 0-4.681 2.72 8.986 8.986 0 0 0 3.74.477m.94-3.197a5.971 5.971 0 0 0-.94 3.197M15 6.75a3 3 0 1 1-6 0 3 3 0 0 1 6 0Zm6 3a2.25 2.25 0 1 1-4.5 0 2.25 2.25 0 0 1 4.5 0Zm-13.5 0a2.25 2.25 0 1 1-4.5 0 2.25 2.25 0 0 1 4.5 0Z"
-        />
-      </svg>
-    ),
-  },
-  {
-    title: "Classes for All Ages",
-    subtitle: "Youth, adults & families",
-    description:
-      "From foundational learning for children and youth to advanced subjects for adults, programs welcome every member of the community at every stage of their journey.",
+      "Mufti Saad teaches advanced Islamic texts online to students nationwide, including works such as al-Hidayah, Mukhtasar al-Qudoori, Tafseer al-Jalalayn, and Usool as-Shashi. Enrollment is by direct arrangement.",
+    cta: "Inquire About Alimiyyah Classes",
+    ctaHref: "/contact",
+    external: false,
+    badge: "Advanced Level",
     icon: (
       <svg className="w-7 h-7" fill="none" viewBox="0 0 24 24" stroke="currentColor" strokeWidth={1.5}>
         <path
@@ -83,7 +80,7 @@ export function Education() {
             className="text-xs font-semibold uppercase tracking-[0.25em] mb-3"
             style={{ color: "var(--gold-accent)" }}
           >
-            At Zakaria Islamic Academy
+            Classes & Education
           </p>
           <h2
             className="text-2xl md:text-3xl font-bold mb-4 max-w-3xl"
@@ -92,21 +89,21 @@ export function Education() {
               color: "var(--text-on-dark)",
             }}
           >
-            Daily prayers, Friday Khutbahs, and year-round programs for the whole
-            community.
+            Public community classes, private instruction, and advanced
+            Alimiyyah study.
           </h2>
           <p
             className="text-base leading-relaxed max-w-2xl"
             style={{ color: "var(--text-muted-on-dark)" }}
           >
-            Mufti Saad organizes weekly lectures, monthly seminars, and classes
-            for all ages — fostering Qur&apos;anic learning, prophetic
-            character, and spiritual development across the congregation.
+            Whether you are a beginner or an advanced student, there is an
+            option suited to you. Public class schedules are listed on ZIA&apos;s
+            website; private and Alimiyyah classes are arranged directly.
           </p>
         </div>
 
         {/* Class cards */}
-        <div className="grid gap-8 md:grid-cols-2">
+        <div className="grid gap-8 md:grid-cols-3">
           {CLASSES.map((item) => (
             <div
               key={item.title}
@@ -155,11 +152,26 @@ export function Education() {
                   className="w-1.5 h-1.5 rounded-full"
                   style={{ background: "var(--navy-deep)" }}
                 />
-                Open to the Community
+                {item.badge}
               </span>
-              <Button href="/contact" variant="link">
-                Ask About This Class
-              </Button>
+              {item.external ? (
+                <a
+                  href={item.ctaHref}
+                  target="_blank"
+                  rel="noopener noreferrer"
+                  className="inline-flex items-center gap-2 text-sm font-semibold transition-opacity hover:opacity-70"
+                  style={{ color: "var(--blue-accent)" }}
+                >
+                  {item.cta}
+                  <svg className="w-4 h-4" fill="none" viewBox="0 0 24 24" stroke="currentColor" strokeWidth={2}>
+                    <path strokeLinecap="round" strokeLinejoin="round" d="M13.5 6H5.25A2.25 2.25 0 0 0 3 8.25v10.5A2.25 2.25 0 0 0 5.25 21h10.5A2.25 2.25 0 0 0 18 18.75V10.5m-10.5 6L21 3m0 0h-5.25M21 3v5.25" />
+                  </svg>
+                </a>
+              ) : (
+                <Button href={item.ctaHref} variant="link">
+                  {item.cta}
+                </Button>
+              )}
             </div>
           ))}
         </div>

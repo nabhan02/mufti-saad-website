@@ -10,7 +10,7 @@ const JOURNEYS = [
   {
     title: "Umrah",
     description:
-      "Journey to the sacred precincts for a blessed Umrah. Mufti Saad leads groups with logistical coordination and spiritual mentorship, making the lesser pilgrimage a meaningful, transformative experience.",
+      "Umrah groups travel monthly throughout the year. Whether you are travelling solo or as a family, contact Mufti Saad directly to arrange your Umrah trip with spiritual guidance and full coordination.",
     gradient: "linear-gradient(135deg, oklch(29% 0.082 327) 0%, oklch(19% 0.062 304) 100%)",
   },
   {

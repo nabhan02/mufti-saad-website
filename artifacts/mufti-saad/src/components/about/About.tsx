@@ -50,10 +50,7 @@ export function About() {
                 Allah have mercy on him) — founder of askimam.org. Through
                 rigorous training he was granted ijazah to issue legal verdicts
                 (fatāwā), and gained advanced expertise in Islamic law,
-                inheritance, and Islamic finance. He subsequently completed a
-                specialization in the preservation of Hadith (Takhassus fil
-                Hadith) in Johannesburg, South Africa in 2018 under master
-                Muhaddith Mufti Mohammad Bhana and Mufti Bilal Saber.
+                inheritance, and Islamic finance.
               </p>
             </BioSection>
 
@@ -149,11 +146,6 @@ export function About() {
                   label="Iftaa (Mufti) Course"
                   value="Post-graduate Islamic jurisprudence & finance — qualified to issue fatāwā (2016–2018)"
                   institution="Darul Iftaa Mahmudiyyah, Durban, South Africa — under Mufti Ebrahim Desai (raḥimahullāh)"
-                />
-                <CredentialItem
-                  label="Takhassus fil Hadith"
-                  value="Specialization in preservation of Hadith (2018)"
-                  institution="Madrasa al-Uloom as-Shariyyah, Johannesburg — under Mufti Mohammad Bhana & Mufti Bilal Saber"
                 />
                 <CredentialItem
                   label="Director of Religious Affairs"

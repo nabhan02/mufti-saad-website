@@ -33,11 +33,9 @@ export function Hero() {
               className="text-lg md:text-xl leading-relaxed max-w-xl mb-10"
               style={{ color: "var(--text-muted-on-dark)" }}
             >
-              Hafiz of the Qur&apos;an and graduate of the Alimiyyah and Iftaa
-              programs, qualified to issue Islamic legal rulings. Director and
-              Head Imam of Zakaria Islamic Academy in Northern Virginia —
-              dedicated to authentic education, religious guidance, and
-              community service.
+              Scholar, Imam, and Mufti — serving the community through
+              authentic Islamic education, religious guidance, and
+              compassionate counsel.
             </p>
             <div className="flex flex-wrap gap-4">
               <Button href="/ask" variant="accent">
