@@ -32,32 +32,41 @@ export function About() {
           <div className="md:col-span-3 space-y-12">
             <BioSection heading="Education">
               <p>
-                Mufti Saad Haque was raised in the United States and began his
-                Islamic studies at a young age. In 2010, he completed the
-                memorization of the Qur&apos;an, marking the beginning of a
-                lifelong journey in sacred knowledge. He pursued advanced
-                Islamic studies at Darul Uloom New York, graduating from its
-                rigorous Alimiyyah program in 2016 with a solid foundation in
-                Tafsir, Hadith, Fiqh, Aqeedah, and Arabic.
+                Mufti Saad Haque grew up in New Jersey and began his Islamic
+                education there before traveling to New York City to pursue
+                higher traditional Islamic knowledge. He studied at Darul Uloom
+                New York for nearly eleven years, completing the memorization of
+                the Qur&apos;an (Hifdh) in 2009 and then graduating from the
+                rigorous six-year Alim course in 2016 with a thorough grounding
+                in Tafsir, Hadith, Fiqh, Aqeedah, Usool, and Arabic. During
+                this time he received ijazaat (authorizations with chains of
+                narration) in the six major books of Hadith and numerous other
+                Islamic sciences.
               </p>
               <p>
-                In 2018, he completed a post-graduate specialization in Islamic
-                legal studies (Iftaa) from Darul Iftaa Mahmudiyyah in South
-                Africa under the guidance of the late Mufti Ebrahim Desai (may
-                Allah have mercy on him). This qualification enables him to
-                issue Islamic legal rulings (fatāwā) with insight and relevance
-                to contemporary challenges.
+                He then traveled to Darul Iftaa Mahmudiyyah in Durban, South
+                Africa, where he studied for two years under the world-renowned
+                scholar and Islamic finance expert, Mufti Ebrahim Desai (may
+                Allah have mercy on him) — founder of askimam.org. Through
+                rigorous training he was granted ijazah to issue legal verdicts
+                (fatāwā), and gained advanced expertise in Islamic law,
+                inheritance, and Islamic finance. He subsequently completed a
+                specialization in the preservation of Hadith (Takhassus fil
+                Hadith) in Johannesburg, South Africa in 2018 under master
+                Muhaddith Mufti Mohammad Bhana and Mufti Bilal Saber.
               </p>
             </BioSection>
 
             <BioSection heading="Masjid Leadership">
               <p>
-                Since 2018, Mufti Saad has served as the Religious Director and
-                Lead Imam of Zakaria Islamic Academy in Northern Virginia. In
-                this role, he leads daily prayers, delivers Friday Khutbahs, and
-                organizes a range of educational and spiritual programs
-                including weekly lectures, monthly seminars, and classes for all
-                ages.
+                Since 2018, Mufti Saad has served as the Director of Religious
+                Affairs of Zakaria Islamic Academy in Northern Virginia
+                (ziacademy.org). In this role he leads all aspects of community
+                life: daily and Jumu&apos;ah prayers, Taraweeh, Eid
+                celebrations, daily and weekly lectures, youth programs,
+                seminars, marriage counseling, mediations, fundraising, and the
+                hiring and oversight of a team of more than a dozen Imams and
+                teachers.
               </p>
               <p>
                 He provides Islamic counseling and pastoral care for
@@ -67,40 +76,43 @@ export function About() {
                 couples with premarital and marital counseling.
               </p>
               <p>
-                Under his leadership, Zakaria Islamic Academy has expanded its
-                educational offerings and community engagement. He collaborates
-                with board members, teachers, and volunteers to build a
-                welcoming environment focused on Qur&apos;anic learning,
-                prophetic character, and spiritual development.
+                Since 2020, he has also served as an instructor at DarusSalam
+                Seminary (masjidds.org) and the Maryland Institute of Deen
+                (marylandinstitute.org), teaching advanced classical texts
+                including Mukhtasar al-Qudoori, al-Hidayah, Tafseer
+                al-Jalalayn, Usool as-Shashi, and al-Fawz al-Kabir to students
+                nationwide.
               </p>
             </BioSection>
 
             <BioSection heading="Community Work & Broader Impact">
               <p>
                 Beyond his masjid responsibilities, Mufti Saad actively serves
-                the wider Muslim community. He is a Director with Sara
-                International Travel and regularly leads groups for Hajj and
-                Umrah, offering both logistical coordination and spiritual
-                mentorship to ensure a meaningful pilgrimage experience.
+                the wider Muslim community. Since 2021, he has served as
+                Director of Sara International Travel
+                (sarainternationaltravel.com), leading groups annually for Hajj
+                and Umrah — pairing trusted logistical coordination with
+                scholarly mentorship for a meaningful pilgrimage experience.
               </p>
               <p>
-                He serves as a professional consultant with University Islamic
-                Financial (UIF), where he assists individuals and families in
-                navigating home financing and other Islamic financial solutions,
-                connecting faith-based financial ethics with practical needs. He
-                also partners with Human Appeal to support global humanitarian
-                projects — raising funds and awareness for food security, orphan
-                care, education, and emergency relief.
+                Since 2024, he serves as Resident Scholar for UIF
+                (myuif.com), providing nationwide guidance on Islamic financing
+                solutions for the American Muslim community. Since 2022, he has
+                also served as Khateeb and fundraiser for multiple international
+                charities — including Human Appeal (humanappealusa.org), LIFE
+                for All (lifeusa.org), Muslim World League (mwlimits.org), and
+                HHRD (hhrd.org) — helping raise millions of dollars for food
+                security, orphan care, education, and emergency relief globally.
               </p>
               <p>
-                Mufti Saad is a founding member of the DMV Ulama Council, a
-                collective of scholars from the D.C., Maryland, and Virginia
-                region. Through this platform, he addresses key religious
-                concerns, facilitates inter-masjid cooperation, and contributes
-                to unified scholarly guidance. He continues to teach advanced
-                Islamic subjects such as Fiqh and Tafsir, aiming to help raise
-                the next generation of American scholars who are classically
-                trained and contextually grounded.
+                Mufti Saad is a founding member of the DMV Ulama Council
+                (dmvulama.org), executive board member of NAIF — North American
+                Imams Fellowship (naifusa.org) — and a member of the Northern
+                Virginia Imams Network (NVIN). He is fluent in English, Arabic,
+                Urdu, and Bangla, enabling him to serve a broad spectrum of the
+                American Muslim community. He frequently travels nationwide to
+                deliver lectures, advise organizations, and support local and
+                national initiatives.
               </p>
             </BioSection>
           </div>
@@ -124,22 +136,28 @@ export function About() {
 
               <div className="space-y-6">
                 <CredentialItem
-                  label="Hafiz of the Qur'an"
-                  value="Completed memorization of the Holy Qur'an (2010)"
+                  label="Ḥifdhul Qur'ān"
+                  value="Memorization of the Holy Qur'an with full ijazah (2009)"
+                  institution="Darul Uloom New York — Jamaica, NY"
                 />
                 <CredentialItem
-                  label="Alimiyyah Program"
-                  value="Tafsir, Hadith, Fiqh, Aqeedah & Arabic (2016)"
-                  institution="Darul Uloom New York"
+                  label="Alim Course / Islamic Theology"
+                  value="Tafsir, Hadith, Fiqh, Aqeedah, Usool & Arabic (2010–2016)"
+                  institution="Darul Uloom New York — ijazaat in the six major books of Hadith"
                 />
                 <CredentialItem
-                  label="Iftaa Specialization"
-                  value="Post-graduate Islamic legal studies — qualified to issue fatāwā (2018)"
-                  institution="Darul Iftaa Mahmudiyyah, South Africa — under Mufti Ebrahim Desai (raḥimahullāh)"
+                  label="Iftaa (Mufti) Course"
+                  value="Post-graduate Islamic jurisprudence & finance — qualified to issue fatāwā (2016–2018)"
+                  institution="Darul Iftaa Mahmudiyyah, Durban, South Africa — under Mufti Ebrahim Desai (raḥimahullāh)"
                 />
                 <CredentialItem
-                  label="Masjid Leadership"
-                  value="Religious Director & Head Imam, Zakaria Islamic Academy (since 2018)"
+                  label="Takhassus fil Hadith"
+                  value="Specialization in preservation of Hadith (2018)"
+                  institution="Madrasa al-Uloom as-Shariyyah, Johannesburg — under Mufti Mohammad Bhana & Mufti Bilal Saber"
+                />
+                <CredentialItem
+                  label="Director of Religious Affairs"
+                  value="Zakaria Islamic Academy, Northern Virginia (since 2018)"
                 />
                 <CredentialItem
                   label="Marriage Officiant"
@@ -147,7 +165,7 @@ export function About() {
                 />
                 <CredentialItem
                   label="Scholarly Leadership"
-                  value="Founding Member, DMV Ulama Council"
+                  value="Founding Member, DMV Ulama Council · Exec. Board, NAIF · NVIN"
                 />
               </div>
             </div>

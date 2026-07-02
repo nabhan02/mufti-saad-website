@@ -1,8 +1,10 @@
 export const CONTACT_EMAIL =
-  import.meta.env.VITE_CONTACT_EMAIL || "contact@muftisaadhaque.com";
+  import.meta.env.VITE_CONTACT_EMAIL || "rshaque22@gmail.com";
+
+export const CONTACT_PHONE = "(703) 640-8988";
 
 export const SITE_NAME = "Mufti Saad Haque";
-export const SITE_TITLE = "Director & Head Imam, Zakaria Islamic Academy";
+export const SITE_TITLE = "Director of Religious Affairs, Zakaria Islamic Academy";
 export const LOCATION = "Northern Virginia";
 export const ORG_NAME = "Zakaria Islamic Academy";
 

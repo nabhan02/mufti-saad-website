@@ -75,16 +75,16 @@ export function Fundraising() {
               className="text-xs font-semibold uppercase tracking-[0.25em] mb-3"
               style={{ color: "var(--gold-accent)" }}
             >
-              In Partnership with Human Appeal
+              Khateeb & Fundraiser — Partnering with Leading Charities Since 2022
             </p>
             <p
               className="text-lg md:text-xl leading-relaxed"
               style={{ color: "var(--text-on-dark)" }}
             >
-              Mufti Saad partners with Human Appeal, a leading international
-              charity, to support global humanitarian projects — helping raise
-              funds and awareness for some of the most critical causes facing
-              communities around the world.
+              Mufti Saad serves as a Khateeb and fundraiser for Human Appeal
+              (humanappealusa.org), LIFE for All (lifeusa.org), Muslim World
+              League (mwlimits.org), and HHRD (hhrd.org) — helping raise
+              millions of dollars for communities in need around the world.
             </p>
           </div>
         </div>

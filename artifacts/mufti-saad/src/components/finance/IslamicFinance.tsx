@@ -84,16 +84,16 @@ export function IslamicFinance() {
               className="text-xs font-semibold uppercase tracking-[0.25em] mb-3"
               style={{ color: "var(--gold-accent)" }}
             >
-              Consultant with University Islamic Financial (UIF)
+              Resident Scholar — University Islamic Financial (myuif.com) · Since 2024
             </p>
             <p
               className="text-lg md:text-xl leading-relaxed"
               style={{ color: "var(--text-on-dark)" }}
             >
-              Mufti Saad helps individuals and families navigate home financing
-              and other Islamic financial solutions — connecting faith-based
-              financial ethics with the practical needs of a growing
-              Muslim-American community.
+              As Resident Scholar for UIF, Mufti Saad provides nationwide
+              guidance on Islamic financing solutions — helping American Muslims
+              achieve homeownership and meet their financial needs in a
+              Shariah-compliant, riba-free way.
             </p>
           </div>
         </div>

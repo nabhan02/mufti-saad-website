@@ -41,16 +41,16 @@ export function HajjUmrah() {
             className="text-xs font-semibold uppercase tracking-[0.25em] mb-3"
             style={{ color: "var(--blue-accent)" }}
           >
-            In Partnership with Sara International Travel
+            Director — Sara International Travel (sarainternationaltravel.com) · Since 2021
           </p>
           <p
             className="text-lg md:text-xl leading-relaxed max-w-3xl mx-auto"
             style={{ color: "var(--text-secondary)" }}
           >
-            As a Director with Sara International Travel, Mufti Saad regularly
-            leads groups for Hajj and Umrah — pairing trusted logistical
+            As Director of Sara International Travel, Mufti Saad leads groups
+            annually for Hajj and Umrah — pairing trusted logistical
             coordination with scholarly mentorship for a truly meaningful
-            pilgrimage.
+            pilgrimage experience.
           </p>
         </div>
 

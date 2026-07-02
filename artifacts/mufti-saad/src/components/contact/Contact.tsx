@@ -1,5 +1,5 @@
 import { InquiryForm } from "@/components/ui/InquiryForm";
-import { CONTACT_EMAIL, LOCATION, ORG_NAME } from "@/lib/site";
+import { CONTACT_EMAIL, CONTACT_PHONE, LOCATION, ORG_NAME } from "@/lib/site";
 
 const TOPICS = [
   "Religious Question",
@@ -27,7 +27,7 @@ export function Contact() {
         />
 
         {/* Direct contact details */}
-        <div className="mt-10 grid gap-6 sm:grid-cols-2">
+        <div className="mt-10 grid gap-6 sm:grid-cols-3">
           <div
             className="rounded-2xl p-6 text-center"
             style={{
@@ -47,6 +47,27 @@ export function Contact() {
               style={{ color: "var(--navy)" }}
             >
               {CONTACT_EMAIL}
+            </a>
+          </div>
+          <div
+            className="rounded-2xl p-6 text-center"
+            style={{
+              background: "var(--surface-card)",
+              border: "1px solid var(--border-subtle)",
+            }}
+          >
+            <p
+              className="text-xs font-semibold uppercase tracking-[0.2em] mb-2"
+              style={{ color: "var(--blue-accent)" }}
+            >
+              Phone
+            </p>
+            <a
+              href={`tel:${CONTACT_PHONE.replace(/\D/g, "")}`}
+              className="text-sm font-medium underline underline-offset-4 decoration-1 transition-opacity hover:opacity-80"
+              style={{ color: "var(--navy)" }}
+            >
+              {CONTACT_PHONE}
             </a>
           </div>
           <div
