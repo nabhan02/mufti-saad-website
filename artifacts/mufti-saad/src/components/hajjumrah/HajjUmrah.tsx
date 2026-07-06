@@ -5,19 +5,19 @@ const JOURNEYS = [
     title: "Hajj",
     description:
       "Fulfill the fifth pillar of Islam with scholarly guidance at every step. From preparation classes to on-ground spiritual mentorship, experience Hajj with depth, devotion, and careful coordination.",
-    gradient: "linear-gradient(135deg, oklch(33% 0.088 335) 0%, oklch(23% 0.07 312) 100%)",
+    gradient: "linear-gradient(135deg, oklch(33% 0.088 220) 0%, oklch(23% 0.07 212) 100%)",
   },
   {
     title: "Umrah",
     description:
       "Umrah groups travel monthly throughout the year. Whether you are travelling solo or as a family, contact Mufti Saad directly to arrange your Umrah trip with spiritual guidance and full coordination.",
-    gradient: "linear-gradient(135deg, oklch(29% 0.082 327) 0%, oklch(19% 0.062 304) 100%)",
+    gradient: "linear-gradient(135deg, oklch(29% 0.082 215) 0%, oklch(19% 0.062 210) 100%)",
   },
   {
     title: "Spiritual Mentorship",
     description:
       "Every journey includes preparation and guidance — understanding the rites, their meanings, and their wisdom — so pilgrims travel with knowledge and return with a renewed connection to Allah.",
-    gradient: "linear-gradient(135deg, oklch(34% 0.088 330) 0%, oklch(24% 0.07 310) 100%)",
+    gradient: "linear-gradient(135deg, oklch(34% 0.088 216) 0%, oklch(24% 0.07 211) 100%)",
   },
 ];
 
@@ -34,7 +34,7 @@ export function HajjUmrah() {
           style={{
             background: "var(--surface-card)",
             border: "1px solid var(--border-subtle)",
-            boxShadow: "0 4px 24px oklch(25% 0.046 320 / 0.06)",
+            boxShadow: "0 4px 24px oklch(25% 0.046 214 / 0.06)",
           }}
         >
           <p
@@ -59,7 +59,7 @@ export function HajjUmrah() {
             <div
               key={journey.title}
               className="rounded-2xl overflow-hidden transition-all duration-300 hover:-translate-y-1 hover:shadow-xl flex flex-col"
-              style={{ boxShadow: "0 8px 40px oklch(25% 0.046 320 / 0.1)" }}
+              style={{ boxShadow: "0 8px 40px oklch(25% 0.046 214 / 0.1)" }}
             >
               {/* Visual header */}
               <div
