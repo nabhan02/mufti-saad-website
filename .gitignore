@@ -47,3 +47,7 @@ Thumbs.db
 # Replit
 .cache/
 .local/
+
+# Legacy Next.js build output (pre-migration)
+.next/
+next-env.d.ts
