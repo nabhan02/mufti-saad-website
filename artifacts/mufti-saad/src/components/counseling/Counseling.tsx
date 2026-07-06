@@ -75,7 +75,7 @@ export function Counseling() {
               style={{
                 background: "var(--surface-card)",
                 border: "1px solid var(--border-subtle)",
-                boxShadow: "0 4px 24px oklch(25% 0.046 214 / 0.06)",
+                boxShadow: "0 4px 24px oklch(25% 0.074 230 / 0.06)",
               }}
             >
               {/* Header strip */}
