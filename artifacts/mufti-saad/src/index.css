@@ -10,13 +10,13 @@
  */
 :root {
   /* Cerulean blue brand family */
-  --navy-deep: oklch(28% 0.085 232);
-  --navy: oklch(40% 0.12 231);
-  --navy-mid: oklch(48% 0.13 230);
-  --navy-soft: oklch(58% 0.12 229);
+  --navy-deep: oklch(22% 0.085 232);
+  --navy: oklch(34% 0.12 231);
+  --navy-mid: oklch(42% 0.13 230);
+  --navy-soft: oklch(52% 0.12 229);
 
   /* Blue accent for small text, links, and labels on light backgrounds */
-  --blue-accent: oklch(48% 0.14 231);
+  --blue-accent: oklch(42% 0.14 231);
 
   /* Cream / surfaces — warm ivory */
   --cream: oklch(95.5% 0.02 86);
@@ -60,7 +60,7 @@ html {
 }
 
 ::selection {
-  background: oklch(58% 0.12 229 / 0.25);
+  background: oklch(52% 0.12 229 / 0.25);
   color: var(--text-primary);
 }
 
@@ -68,5 +68,5 @@ input:focus,
 select:focus,
 textarea:focus {
   border-color: var(--blue-accent) !important;
-  box-shadow: 0 0 0 3px oklch(48% 0.14 231 / 0.14);
+  box-shadow: 0 0 0 3px oklch(42% 0.14 231 / 0.14);
 }

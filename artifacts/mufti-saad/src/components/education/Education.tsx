@@ -72,8 +72,8 @@ export function Education() {
           className="rounded-2xl p-8 md:p-10 mb-10"
           style={{
             background:
-              "linear-gradient(135deg, oklch(41.0% 0.135 230) 0%, oklch(35.5% 0.129 230) 100%)",
-            boxShadow: "0 8px 40px oklch(20% 0.074 230 / 0.18)",
+              "linear-gradient(135deg, oklch(35.0% 0.135 230) 0%, oklch(29.5% 0.129 230) 100%)",
+            boxShadow: "0 8px 40px oklch(14.0% 0.074 230 / 0.18)",
           }}
         >
           <p
@@ -111,7 +111,7 @@ export function Education() {
               style={{
                 background: "var(--surface-card)",
                 border: "1px solid var(--border-subtle)",
-                boxShadow: "0 4px 24px oklch(25% 0.074 230 / 0.06)",
+                boxShadow: "0 4px 24px oklch(19.0% 0.074 230 / 0.06)",
               }}
             >
               <div

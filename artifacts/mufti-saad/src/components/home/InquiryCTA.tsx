@@ -21,8 +21,8 @@ export function InquiryCTA({
           className="rounded-3xl p-10 md:p-16 text-center relative overflow-hidden"
           style={{
             background:
-              "linear-gradient(135deg, oklch(41.6% 0.135 230) 0%, oklch(37.8% 0.135 230) 55%, oklch(33.4% 0.114 230) 100%)",
-            boxShadow: "0 20px 60px oklch(20% 0.074 230 / 0.25)",
+              "linear-gradient(135deg, oklch(35.6% 0.135 230) 0%, oklch(31.8% 0.135 230) 55%, oklch(27.4% 0.114 230) 100%)",
+            boxShadow: "0 20px 60px oklch(14.0% 0.074 230 / 0.25)",
           }}
         >
           {/* Decorative orbs */}
