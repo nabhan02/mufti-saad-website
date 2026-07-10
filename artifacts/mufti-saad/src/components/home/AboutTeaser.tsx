@@ -17,19 +17,18 @@ export function AboutTeaser() {
           className="text-3xl sm:text-4xl font-bold mb-8 leading-tight"
           style={{ fontFamily: "var(--font-playfair), serif" }}
         >
-          A scholar grounded in tradition, serving today&apos;s community.
+          Serving the community, every day.
         </h2>
         <p
           className="text-base md:text-lg leading-relaxed mb-10"
           style={{ color: "var(--text-secondary)" }}
         >
-          Raised in the United States, Mufti Saad Haque completed the
-          memorization of the Qur&apos;an in 2010, graduated from the rigorous
-          Alimiyyah program at Darul Uloom New York in 2016, and earned a
-          post-graduate specialization in Islamic legal studies (Iftaa) under
-          the late Mufti Ebrahim Desai (may Allah have mercy on him). Since
-          2018 he has served as Religious Director and Lead Imam of Zakaria
-          Islamic Academy in Northern Virginia.
+          As Imam of Zakaria Islamic Academy, Mufti Saad leads daily prayers
+          and Friday khutbahs, guides families toward halal home and business
+          financing, personally leads group Hajj and Umrah journeys each year,
+          and teaches the Qur&apos;an and Islamic sciences to students from
+          beginner to advanced — while remaining available for personal
+          questions and counsel.
         </p>
         <Button href="/about" variant="primary" showArrow>
           Read Full Biography

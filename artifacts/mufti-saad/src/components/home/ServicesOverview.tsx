@@ -2,75 +2,11 @@ import { Link } from "wouter";
 
 const ITEMS = [
   {
-    href: "/ask",
-    eyebrow: "Religious Guidance",
-    title: "Ask Mufti Saad",
-    description:
-      "Submit your religious questions and receive answers rooted in classical scholarship and qualified Iftaa training, relevant to today's challenges.",
-    icon: (
-      <svg className="w-7 h-7" fill="none" viewBox="0 0 24 24" stroke="currentColor" strokeWidth={1.5}>
-        <path
-          strokeLinecap="round"
-          strokeLinejoin="round"
-          d="M8.625 12a.375.375 0 1 1-.75 0 .375.375 0 0 1 .75 0Zm0 0H8.25m4.125 0a.375.375 0 1 1-.75 0 .375.375 0 0 1 .75 0Zm0 0H12m4.125 0a.375.375 0 1 1-.75 0 .375.375 0 0 1 .75 0Zm0 0h-.375M21 12c0 4.556-4.03 8.25-9 8.25a9.764 9.764 0 0 1-2.555-.337A5.972 5.972 0 0 1 5.41 20.97a5.969 5.969 0 0 1-.474-.065 4.48 4.48 0 0 0 .978-2.025c.09-.457-.133-.901-.467-1.226C3.93 16.178 3 14.189 3 12c0-4.556 4.03-8.25 9-8.25s9 3.694 9 8.25Z"
-        />
-      </svg>
-    ),
-  },
-  {
-    href: "/classes",
-    eyebrow: "Education",
-    title: "Classes & Education",
-    description:
-      "Weekly lectures, monthly seminars, and classes for all ages — including advanced study of Tafsir and Fiqh at Zakaria Islamic Academy.",
-    icon: (
-      <svg className="w-7 h-7" fill="none" viewBox="0 0 24 24" stroke="currentColor" strokeWidth={1.5}>
-        <path
-          strokeLinecap="round"
-          strokeLinejoin="round"
-          d="M12 6.042A8.967 8.967 0 0 0 6 3.75c-1.052 0-2.062.18-3 .512v14.25A8.987 8.987 0 0 1 6 18c2.305 0 4.408.867 6 2.292m0-14.25a8.966 8.966 0 0 1 6-2.292c1.052 0 2.062.18 3 .512v14.25A8.987 8.987 0 0 0 18 18a8.967 8.967 0 0 0-6 2.292m0-14.25v14.25"
-        />
-      </svg>
-    ),
-  },
-  {
-    href: "/counseling",
-    eyebrow: "Family",
-    title: "Counseling & Nikah",
-    description:
-      "Confidential Islamic counseling and pastoral care for individuals, couples, and families — plus nikah officiation as a Virginia-recognized officiant.",
-    icon: (
-      <svg className="w-7 h-7" fill="none" viewBox="0 0 24 24" stroke="currentColor" strokeWidth={1.5}>
-        <path
-          strokeLinecap="round"
-          strokeLinejoin="round"
-          d="M15.75 6a3.75 3.75 0 1 1-7.5 0 3.75 3.75 0 0 1 7.5 0ZM4.501 20.118a7.5 7.5 0 0 1 14.998 0A17.933 17.933 0 0 1 12 21.75c-2.676 0-5.216-.584-7.499-1.632Z"
-        />
-      </svg>
-    ),
-  },
-  {
-    href: "/hajj-umrah",
-    eyebrow: "Travel",
-    title: "Hajj & Umrah",
-    description:
-      "Guided pilgrimage journeys with logistical coordination and spiritual mentorship, leading groups for Hajj and Umrah through Sara International Travel.",
-    icon: (
-      <svg className="w-7 h-7" fill="none" viewBox="0 0 24 24" stroke="currentColor" strokeWidth={1.5}>
-        <path
-          strokeLinecap="round"
-          strokeLinejoin="round"
-          d="M9 6.75V15m6-6v8.25m.503 3.498 4.875-2.437c.381-.19.622-.58.622-1.006V4.82c0-.836-.88-1.38-1.628-1.006l-3.869 1.934c-.317.159-.69.159-1.006 0L9.503 3.252a1.125 1.125 0 0 0-1.006 0L3.622 5.689C3.24 5.88 3 6.27 3 6.695V19.18c0 .836.88 1.38 1.628 1.006l3.869-1.934c.317-.159.69-.159 1.006 0l4.994 2.497c.317.158.69.158 1.006 0Z"
-        />
-      </svg>
-    ),
-  },
-  {
     href: "/islamic-finance",
-    eyebrow: "Financial Guidance",
-    title: "Islamic Finance",
+    eyebrow: "Islamic Finance",
+    title: "Halal Financing",
     description:
-      "Shariah-compliant financial solutions as a consultant with University Islamic Financial (UIF) — including riba-free home financing for families.",
+      "Finance your home, car, or business — or open a savings account — the halal, riba-free way.",
     icon: (
       <svg className="w-7 h-7" fill="none" viewBox="0 0 24 24" stroke="currentColor" strokeWidth={1.5}>
         <path
@@ -83,16 +19,80 @@ const ITEMS = [
   },
   {
     href: "/fundraising",
-    eyebrow: "Humanitarian",
-    title: "Fundraising",
+    eyebrow: "Fundraising",
+    title: "Appeals & Khutbahs",
     description:
-      "Partnering with Human Appeal to raise funds and awareness for food security, orphan care, education, and emergency relief worldwide.",
+      "Move your community to give — powerful, Qur'an-rooted appeals for the causes that matter.",
     icon: (
       <svg className="w-7 h-7" fill="none" viewBox="0 0 24 24" stroke="currentColor" strokeWidth={1.5}>
         <path
           strokeLinecap="round"
           strokeLinejoin="round"
           d="M21 8.25c0-2.485-2.099-4.5-4.688-4.5-1.935 0-3.597 1.126-4.312 2.733-.715-1.607-2.377-2.733-4.313-2.733C5.1 3.75 3 5.765 3 8.25c0 7.22 9 12 9 12s9-4.78 9-12Z"
+        />
+      </svg>
+    ),
+  },
+  {
+    href: "/hajj-umrah",
+    eyebrow: "Sacred Travel",
+    title: "Hajj & Umrah",
+    description:
+      "Travel to the sacred lands with expert guidance — group Hajj and Umrah, led personally.",
+    icon: (
+      <svg className="w-7 h-7" fill="none" viewBox="0 0 24 24" stroke="currentColor" strokeWidth={1.5}>
+        <path
+          strokeLinecap="round"
+          strokeLinejoin="round"
+          d="M9 6.75V15m6-6v8.25m.503 3.498 4.875-2.437c.381-.19.622-.58.622-1.006V4.82c0-.836-.88-1.38-1.628-1.006l-3.869 1.934c-.317.159-.69.159-1.006 0L9.503 3.252a1.125 1.125 0 0 0-1.006 0L3.622 5.689C3.24 5.88 3 6.27 3 6.695V19.18c0 .836.88 1.38 1.628 1.006l3.869-1.934c.317-.159.69-.159 1.006 0l4.994 2.497c.317.158.69.158 1.006 0Z"
+        />
+      </svg>
+    ),
+  },
+  {
+    href: "/counseling",
+    eyebrow: "Family & Counsel",
+    title: "Counseling & Nikah",
+    description:
+      "Confidential guidance for marriage, family, and life — plus nikah officiation.",
+    icon: (
+      <svg className="w-7 h-7" fill="none" viewBox="0 0 24 24" stroke="currentColor" strokeWidth={1.5}>
+        <path
+          strokeLinecap="round"
+          strokeLinejoin="round"
+          d="M15.75 6a3.75 3.75 0 1 1-7.5 0 3.75 3.75 0 0 1 7.5 0ZM4.501 20.118a7.5 7.5 0 0 1 14.998 0A17.933 17.933 0 0 1 12 21.75c-2.676 0-5.216-.584-7.499-1.632Z"
+        />
+      </svg>
+    ),
+  },
+  {
+    href: "/classes",
+    eyebrow: "Education",
+    title: "Classes",
+    description:
+      "Study Qur'an, Fiqh, and Tafsir — programs for beginners through advanced students.",
+    icon: (
+      <svg className="w-7 h-7" fill="none" viewBox="0 0 24 24" stroke="currentColor" strokeWidth={1.5}>
+        <path
+          strokeLinecap="round"
+          strokeLinejoin="round"
+          d="M12 6.042A8.967 8.967 0 0 0 6 3.75c-1.052 0-2.062.18-3 .512v14.25A8.987 8.987 0 0 1 6 18c2.305 0 4.408.867 6 2.292m0-14.25a8.966 8.966 0 0 1 6-2.292c1.052 0 2.062.18 3 .512v14.25A8.987 8.987 0 0 0 18 18a8.967 8.967 0 0 0-6 2.292m0-14.25v14.25"
+        />
+      </svg>
+    ),
+  },
+  {
+    href: "/ask",
+    eyebrow: "Religious Q&A",
+    title: "Ask Mufti Saad",
+    description:
+      "Have a religious question? Get a clear, reliable answer rooted in classical scholarship.",
+    icon: (
+      <svg className="w-7 h-7" fill="none" viewBox="0 0 24 24" stroke="currentColor" strokeWidth={1.5}>
+        <path
+          strokeLinecap="round"
+          strokeLinejoin="round"
+          d="M8.625 12a.375.375 0 1 1-.75 0 .375.375 0 0 1 .75 0Zm0 0H8.25m4.125 0a.375.375 0 1 1-.75 0 .375.375 0 0 1 .75 0Zm0 0H12m4.125 0a.375.375 0 1 1-.75 0 .375.375 0 0 1 .75 0Zm0 0h-.375M21 12c0 4.556-4.03 8.25-9 8.25a9.764 9.764 0 0 1-2.555-.337A5.972 5.972 0 0 1 5.41 20.97a5.969 5.969 0 0 1-.474-.065 4.48 4.48 0 0 0 .978-2.025c.09-.457-.133-.901-.467-1.226C3.93 16.178 3 14.189 3 12c0-4.556 4.03-8.25 9-8.25s9 3.694 9 8.25Z"
         />
       </svg>
     ),
@@ -108,17 +108,18 @@ export function ServicesOverview() {
             className="text-sm font-semibold uppercase tracking-[0.25em] mb-4"
             style={{ color: "var(--blue-accent)" }}
           >
-            How Mufti Saad Serves
+            How Mufti Saad Can Help
           </p>
           <h2
             className="text-3xl sm:text-4xl font-bold mb-4"
             style={{ fontFamily: "var(--font-playfair), serif" }}
           >
-            Paths of Knowledge & Service
+            Ways He Serves the Community
           </h2>
           <p className="text-base" style={{ color: "var(--text-secondary)" }}>
-            Whether you seek a religious ruling, sacred knowledge, compassionate
-            counsel, or a meaningful pilgrimage, find the path that suits you.
+            From halal finance and fundraising to Hajj &amp; Umrah, counseling,
+            classes, and your everyday questions — here&apos;s where Mufti Saad
+            can help.
           </p>
         </div>
 

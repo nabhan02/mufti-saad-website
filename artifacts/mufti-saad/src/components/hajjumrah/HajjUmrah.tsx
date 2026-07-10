@@ -1,117 +1,123 @@
 import { Button } from "@/components/ui/Button";
 
-const JOURNEYS = [
-  {
-    title: "Hajj",
-    description:
-      "Fulfill the fifth pillar of Islam with scholarly guidance at every step. From preparation classes to on-ground spiritual mentorship, experience Hajj with depth, devotion, and careful coordination.",
-    gradient: "linear-gradient(135deg, oklch(36.2% 0.135 230) 0%, oklch(30.6% 0.133 230) 100%)",
-  },
-  {
-    title: "Umrah",
-    description:
-      "Umrah groups travel monthly throughout the year. Whether you are travelling solo or as a family, contact Mufti Saad directly to arrange your Umrah trip with spiritual guidance and full coordination.",
-    gradient: "linear-gradient(135deg, oklch(34.0% 0.135 230) 0%, oklch(28.5% 0.118 230) 100%)",
-  },
-  {
-    title: "Spiritual Mentorship",
-    description:
-      "Every journey includes preparation and guidance — understanding the rites, their meanings, and their wisdom — so pilgrims travel with knowledge and return with a renewed connection to Allah.",
-    gradient: "linear-gradient(135deg, oklch(36.7% 0.135 230) 0%, oklch(31.2% 0.133 230) 100%)",
-  },
+const HELPS = [
+  "Annual group Hajj packages",
+  "Monthly Umrah groups (solo or family)",
+  "On-ground scholarly mentorship",
+  "Pre-journey preparation classes",
+  "Full logistical coordination",
+  "Guidance through every rite",
 ];
 
 export function HajjUmrah() {
   return (
-    <section
-      className="py-24 md:py-32"
-      style={{ background: "var(--surface-light)" }}
-    >
-      <div className="mx-auto max-w-6xl px-6">
-        {/* Partnership banner */}
-        <div
-          className="rounded-2xl p-8 md:p-10 mb-12 text-center"
-          style={{
-            background: "var(--surface-card)",
-            border: "1px solid var(--border-subtle)",
-            boxShadow: "0 4px 24px oklch(19.0% 0.074 230 / 0.06)",
-          }}
-        >
-          <p
-            className="text-xs font-semibold uppercase tracking-[0.25em] mb-3"
-            style={{ color: "var(--blue-accent)" }}
+    <>
+      {/* Partnership banner */}
+      <section className="py-16 md:py-20">
+        <div className="mx-auto max-w-4xl px-6">
+          <div
+            className="rounded-2xl p-8 md:p-10 text-center"
+            style={{
+              background:
+                "linear-gradient(135deg, oklch(35.0% 0.135 230) 0%, oklch(29.5% 0.129 230) 100%)",
+              boxShadow: "0 8px 40px oklch(14.0% 0.074 230 / 0.18)",
+            }}
           >
-            Director — Sara International Travel (sarainternationaltravel.com) · Since 2021
-          </p>
-          <p
-            className="text-lg md:text-xl leading-relaxed max-w-3xl mx-auto"
-            style={{ color: "var(--text-secondary)" }}
-          >
-            As Director of Sara International Travel, Mufti Saad leads groups
-            annually for Hajj and Umrah — pairing trusted logistical
-            coordination with scholarly mentorship for a truly meaningful
-            pilgrimage experience.
-          </p>
-        </div>
-
-        <div className="grid gap-8 md:grid-cols-3">
-          {JOURNEYS.map((journey, i) => (
-            <div
-              key={journey.title}
-              className="rounded-2xl overflow-hidden transition-all duration-300 hover:-translate-y-1 hover:shadow-xl flex flex-col"
-              style={{ boxShadow: "0 8px 40px oklch(19.0% 0.074 230 / 0.1)" }}
+            <p
+              className="text-xs font-semibold uppercase tracking-[0.25em] mb-3"
+              style={{ color: "var(--gold-accent)" }}
             >
-              {/* Visual header */}
-              <div
-                className="relative h-48 flex items-end p-6"
-                style={{ background: journey.gradient }}
-              >
-                <div
-                  className="absolute top-6 right-6 w-16 h-16 rounded-full opacity-10"
-                  style={{ background: "white" }}
-                />
-                <div
-                  className="absolute top-10 right-10 w-8 h-8 rounded-full opacity-10"
-                  style={{ background: "white" }}
-                />
-                <div>
-                  <span
-                    className="text-xs font-semibold uppercase tracking-[0.2em] block mb-2"
-                    style={{ color: "var(--gold-accent)" }}
-                  >
-                    Journey {String(i + 1).padStart(2, "0")}
-                  </span>
-                  <h3
-                    className="text-2xl font-bold"
-                    style={{
-                      fontFamily: "var(--font-playfair), serif",
-                      color: "var(--text-on-dark)",
-                    }}
-                  >
-                    {journey.title}
-                  </h3>
-                </div>
-              </div>
-
-              {/* Body */}
-              <div
-                className="flex-1 p-6 flex flex-col"
-                style={{ background: "var(--surface-card)" }}
-              >
-                <p
-                  className="text-sm leading-relaxed flex-1 mb-6"
-                  style={{ color: "var(--text-secondary)" }}
-                >
-                  {journey.description}
-                </p>
-                <Button href="/contact" variant="link">
-                  Inquire About a Journey
-                </Button>
-              </div>
-            </div>
-          ))}
+              Director — Sara International Travel (sarainternationaltravel.com) · Since 2021
+            </p>
+            <p
+              className="text-lg md:text-xl leading-relaxed"
+              style={{ color: "var(--text-on-dark)" }}
+            >
+              As Director of Sara International Travel, Mufti Saad leads groups
+              annually for Hajj and Umrah — pairing trusted logistical
+              coordination with scholarly mentorship for a truly meaningful
+              pilgrimage experience.
+            </p>
+          </div>
         </div>
-      </div>
-    </section>
+      </section>
+
+      {/* Consolidated "how I can help" section */}
+      <section
+        className="py-12 md:py-20 pb-24 md:pb-32"
+        style={{ background: "var(--surface-light)" }}
+      >
+        <div className="mx-auto max-w-3xl px-6">
+          <div
+            className="rounded-2xl overflow-hidden"
+            style={{
+              background: "var(--surface-card)",
+              border: "1px solid var(--border-subtle)",
+              boxShadow: "0 8px 40px oklch(19.0% 0.074 230 / 0.08)",
+            }}
+          >
+            <div
+              className="h-2"
+              style={{
+                background:
+                  "linear-gradient(90deg, var(--navy), var(--navy-soft))",
+              }}
+            />
+            <div className="p-8 md:p-12">
+              <div
+                className="w-14 h-14 rounded-full flex items-center justify-center mb-6"
+                style={{ background: "var(--navy)", color: "var(--gold-accent)" }}
+              >
+                <svg className="w-7 h-7" fill="none" viewBox="0 0 24 24" stroke="currentColor" strokeWidth={1.5}>
+                  <path
+                    strokeLinecap="round"
+                    strokeLinejoin="round"
+                    d="M9 6.75V15m6-6v8.25m.503 3.498 4.875-2.437c.381-.19.622-.58.622-1.006V4.82c0-.836-.88-1.38-1.628-1.006l-3.869 1.934c-.317.159-.69.159-1.006 0L9.503 3.252a1.125 1.125 0 0 0-1.006 0L3.622 5.689C3.24 5.88 3 6.27 3 6.695V19.18c0 .836.88 1.38 1.628 1.006l3.869-1.934c.317-.159.69-.159 1.006 0l4.994 2.497c.317.158.69.158 1.006 0Z"
+                  />
+                </svg>
+              </div>
+              <h2
+                className="text-2xl md:text-3xl font-bold mb-4"
+                style={{ fontFamily: "var(--font-playfair), serif" }}
+              >
+                How Mufti Saad Can Help
+              </h2>
+              <p
+                className="text-base leading-relaxed mb-8"
+                style={{ color: "var(--text-secondary)" }}
+              >
+                Mufti Saad personally leads group Hajj each year and Umrah
+                groups throughout the year — whether you travel solo or with
+                family. Every journey pairs full logistical coordination with
+                scholarly mentorship, so you set out with knowledge and return
+                with a renewed connection to Allah.
+              </p>
+
+              <ul className="grid gap-x-8 gap-y-3 sm:grid-cols-2 mb-10">
+                {HELPS.map((item) => (
+                  <li key={item} className="flex items-start gap-3 text-sm">
+                    <svg
+                      className="w-5 h-5 mt-0.5 shrink-0"
+                      fill="none"
+                      viewBox="0 0 24 24"
+                      stroke="currentColor"
+                      strokeWidth={2.5}
+                      style={{ color: "var(--blue-accent)" }}
+                    >
+                      <path strokeLinecap="round" strokeLinejoin="round" d="m4.5 12.75 6 6 9-13.5" />
+                    </svg>
+                    <span style={{ color: "var(--text-secondary)" }}>{item}</span>
+                  </li>
+                ))}
+              </ul>
+
+              <Button href="/contact" variant="primary" showArrow>
+                Inquire About a Journey
+              </Button>
+            </div>
+          </div>
+        </div>
+      </section>
+    </>
   );
 }

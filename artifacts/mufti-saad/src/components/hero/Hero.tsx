@@ -33,9 +33,10 @@ export function Hero() {
               className="text-lg md:text-xl leading-relaxed max-w-xl mb-10"
               style={{ color: "var(--text-muted-on-dark)" }}
             >
-              Scholar, Imam, and Mufti — serving the community through
-              authentic Islamic education, religious guidance, and
-              compassionate counsel.
+              Imam and Mufti for over 8 years, and an Islamic finance
+              specialist — helping families with halal financing, leading
+              Hajj &amp; Umrah journeys, and guiding the community through
+              everyday religious life.
             </p>
             <div className="flex flex-wrap gap-4">
               <Button href="/ask" variant="accent">

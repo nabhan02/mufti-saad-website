@@ -1,8 +1,9 @@
-// Replace # with the real URLs once Mufti Saad provides them.
+// Social icons link to Mufti Saad's Linktree hub (all his profiles/links).
+// Swap individual hrefs for direct profile URLs if you'd prefer.
 const SOCIALS = [
   {
     name: "Instagram",
-    href: "#",
+    href: "https://linktr.ee/saadhaque",
     icon: (
       <svg
         viewBox="0 0 24 24"
@@ -16,7 +17,7 @@ const SOCIALS = [
   },
   {
     name: "Facebook",
-    href: "#",
+    href: "https://linktr.ee/saadhaque",
     icon: (
       <svg
         viewBox="0 0 24 24"
@@ -30,7 +31,7 @@ const SOCIALS = [
   },
   {
     name: "YouTube",
-    href: "#",
+    href: "https://linktr.ee/saadhaque",
     icon: (
       <svg
         viewBox="0 0 24 24"
