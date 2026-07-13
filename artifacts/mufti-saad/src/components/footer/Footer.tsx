@@ -1,11 +1,6 @@
 import { Link } from "wouter";
 import { SocialIcons } from "./SocialIcons";
-import {
-  CONTACT_EMAIL,
-  LOCATION,
-  ORG_NAME,
-  SITE_NAME,
-} from "@/lib/site";
+import { CONTACT_EMAIL, SITE_NAME } from "@/lib/site";
 
 const QUICK_LINKS = [
   { href: "/about", label: "About" },
@@ -42,8 +37,7 @@ export function Footer() {
               style={{ color: "var(--text-muted-on-dark)" }}
             >
               Scholar, Imam, and Mufti — serving the community through authentic
-              Islamic education, religious guidance, and compassionate
-              counsel at {ORG_NAME} in {LOCATION}.
+              Islamic education, religious guidance, and compassionate counsel.
             </p>
           </div>
 
