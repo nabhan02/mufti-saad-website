@@ -58,7 +58,7 @@ export function Hero() {
               }}
             >
               <img
-                src="/images/headshot.png"
+                src="/images/headshot.webp"
                 alt="Mufti Saad Haque"
                 className="w-full h-full object-cover object-center"
               />
