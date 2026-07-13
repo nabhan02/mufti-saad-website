@@ -21,11 +21,11 @@ export function Navbar() {
           style={{ color: "var(--text-on-dark)" }}
         >
           <img
-            src="/images/logo-mark.svg"
-            alt=""
-            width={36}
-            height={36}
-            className="object-contain shrink-0"
+            src="/images/logo-mark.png"
+            alt="Mufti Saad Haque"
+            width={40}
+            height={40}
+            className="object-contain shrink-0 rounded-lg"
           />
           <span
             className="text-lg font-semibold tracking-tight"
