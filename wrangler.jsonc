@@ -1,0 +1,11 @@
+// Cloudflare Workers config — deploys the built site as static assets.
+// Build first: PORT=5173 BASE_PATH=/ pnpm --filter @workspace/mufti-saad build
+{
+  "name": "mufti-saad-website",
+  "compatibility_date": "2026-07-01",
+  "assets": {
+    "directory": "./artifacts/mufti-saad/dist/public",
+    // Client-side (wouter) routing: serve index.html for unknown paths
+    "not_found_handling": "single-page-application"
+  }
+}
