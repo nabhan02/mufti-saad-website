@@ -1,5 +1,5 @@
 export const CONTACT_EMAIL =
-  import.meta.env.VITE_CONTACT_EMAIL || "contact@muftisaad.com";
+  import.meta.env.VITE_CONTACT_EMAIL || "contact@saadhaque.com";
 
 export const SITE_NAME = "Mufti Saad Haque";
 export const SITE_TITLE = "Director of Religious Affairs, Zakaria Islamic Academy";
